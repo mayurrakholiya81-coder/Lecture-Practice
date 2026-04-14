@@ -1,0 +1,30 @@
+body {
+    background-color: #eeeeee;
+}
+
+.container {
+    width: 60%;
+    margin: 40px auto;
+    padding: 20px;
+    border: 5px solid black;
+    text-align: center;
+    background-color: white;
+}
+
+h1 {
+    letter-spacing: 3px;
+}
+
+h3 {
+    font-style: italic;
+    color: #2c5d63;
+}
+
+h2 {
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+p {
+    margin: 10px 0;
+}
