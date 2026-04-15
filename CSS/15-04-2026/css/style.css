@@ -1,0 +1,13 @@
+@import"demo.css";
+
+h1{
+	border: solid 5px white;
+	text-align: center;
+	color: black;
+	padding: 20px;
+}
+
+div ul li{
+	font-size: 22px;
+	text-shadow: 5px 5px 1px black;
+}
