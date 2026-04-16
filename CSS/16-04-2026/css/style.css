@@ -1,0 +1,53 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Card Container */
+.container {
+    background: #fff;
+    padding: 30px;
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Heading */
+h1 {
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.role {
+    color: #3b6d6d;
+    margin-bottom: 20px;
+}
+
+/* Section Styling */
+.section {
+    margin: 15px 0;
+}
+
+.section h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+/* Icons */
+.section h2 i {
+    margin-right: 8px;
+    color: #333;
+}
+
+/* Text */
+p {
+    margin: 5px 0;
+    font-size: 14px;
+}
