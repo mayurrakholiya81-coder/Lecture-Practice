@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.parallax {
+    background-image: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470');
+    height: 300px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    color: white;
+    padding-top: 10px;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.parallax h1 {
+    background: rgba(0,0,0,0.4);
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.section {
+    height: 200px;
+    color: white;
+    padding: 10px;
+}
+
+.linear {
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+}
+
+.radial {
+    background: radial-gradient(circle, #3a5ba0, #1e3c72);
+}
+
+.conic {
+    background: conic-gradient(red, orange, purple, red);
+}
+
+.text-block {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.highlight {
+    background: #f4f4f4;
+    border-top: 3px solid orange;
+    border-bottom: 3px solid orange;
+}
+
+
+.parent {
+    text-align: center;
+    padding: 30px;
+    background: #ddd;
+}
+
+.parent h2 {
+    margin: 0;
+}
+
+.parent p {
+    font-size: 12px;
+    color: #555;
+}
