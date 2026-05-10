@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+aside{
+    width: 350px;
+    height: 120vh;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    display: inline-block;
+}
+
+.market{
+    margin: 10px 0px;
+}
+
+.dsc{
+    font-size: 18px;
+    color: #8b8b8b
+}
+
+.h3{
+    margin: 100px 0px;
+    display: inline-block;
+}
+
+.but1{
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.text-color{
+    margin: 4px 0px;
+    color: #03fc0b;
+}
+
+.reviews i {
+    color: gold;
+}
+
+.reviews{
+    margin: 5px 0px;
+}
+
+.modal-part ul li {
+    font-weight: 500;
+    font-size: 17px;
+    padding: 5px 0px;
+    background-color: rgb(1, 1, 19);
+    color: aliceblue;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.modal-part ul li i{
+    margin-right: 5px;
+}
+
+.modal-part2 ul li {
+    font-weight: 500;
+    font-size: 17px;
+    padding: 5px 0px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.right-side{
+    width: calc(100% - 350px);
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.26);
+    vertical-align: top;
+}
+
+.right-side-top{
+    padding: 50px;
+}
+
+.search{
+    padding: 7px;
+    width: 500px;
+    margin-top: 10px;
+    font-size: 19px;
+}
+
+.product-side{
+    margin: 10px 0px;
+}
+
+.product-card{
+    width: 24%;
+    border:  1px solid black;
+    display: inline-block;
+    margin: 10px 3px;
+}
+
+.product-img img {
+    display: block;
+    margin: auto;
+}
+
+.sev{
+    margin: 0px 10px;
+}
+
+.dsca{
+    margin-left:10px ;
+    font-size: 18px;
+    color: #8b8b8b
+}
+
+.review i {
+    color: gold;
+}
+
+.review{
+    margin: 5px 10px;
+}
+
+.monay{
+    font-weight: 600;
+    margin: 0px 10px;
+    display: inline-block;
+    color: #000000;
+}
+
+.monay-s{
+    color: #8b8b8b;
+}
+
+.cart-but{
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #15b81d;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    padding: 5px 15px;
+    border-radius: 8px;
+    background-color: #15b81d;
+    color: #fff9f9;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.cart-but:hover{
+    background-color: #fff9f9;
+    color: #000000;
+    border: 1px solid #15b81d;
+    box-shadow: 5px 5px 10px #000000;
+}
+

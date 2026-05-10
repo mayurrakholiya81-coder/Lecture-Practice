@@ -1,0 +1,29 @@
+h1, p, a {
+    color: black;
+    background-color: transparent;
+}
+
+nav a:last-child,
+nav a:first-child {
+    color: red;
+    background-color: yellow;
+}
+
+div h1:last-child,
+section h1:last-child,
+li h1:first-child {
+    color: red;
+    background-color: yellow;
+}
+
+h1:nth-child(2),
+h1:nth-child(5),
+h1:nth-last-child(1) {
+    color: red;
+    background-color: yellow;
+}
+
+span p:last-child {
+    color: red;
+    background-color: yellow;
+}

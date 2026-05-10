@@ -1,0 +1,82 @@
+/* Global Style */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Grid Layout */
+.container {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+    background: #222;
+    color: white;
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 10px;
+    margin: 5px 0;
+    background: #444;
+}
+
+/* Highlight first tag */
+.sidebar li:first-child {
+    background: yellow;
+    color: black;
+    font-weight: bold;
+}
+
+/* Main Content */
+.content {
+    padding: 20px;
+}
+
+/* Blog Post */
+.post {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+/* First letter style */
+.post p::first-letter {
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+}
+
+/* First line style */
+.post p::first-line {
+    color: blue;
+    font-weight: bold;
+}
+
+/* Comments */
+.comments p {
+    padding: 10px;
+}
+
+/* Odd/Even comments */
+.comments p:nth-child(odd) {
+    background: #f2f2f2;
+}
+
+.comments p:nth-child(even) {
+    background: #dcdcdc;
+}
+
+/* Text Selection */
+::selection {
+    background: black;
+    color: yellow;
+}
