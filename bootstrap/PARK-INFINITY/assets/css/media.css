@@ -1,0 +1,56 @@
+@media (max-width: 576px) {
+    .room-title {
+        font-size: 2rem;
+    }
+
+    .room-menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .service-card {
+        flex-direction: row;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer-logo .footer-brand {
+        font-size: 1.2rem;
+    }
+
+    .footer-nav .footer-link {
+        margin: 0 6px;
+        font-size: 16px;
+    }
+
+    .footer-desc {
+        font-size: 0.8rem;
+    }
+
+    .footer-copyright {
+        font-size: 0.8rem;
+    }
+
+    .booking-form-wrapper {
+        padding: 24px 10px 18px 10px;
+    }
+
+    .booking-title h2 {
+        font-size: 1.3rem;
+    }
+
+    .testimonial-box {
+        text-align: center;
+    }
+
+    .testimonial-box .d-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonial-box img {
+        margin: 0 0 10px 0;
+    }
+}

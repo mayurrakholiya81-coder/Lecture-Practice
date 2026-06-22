@@ -1,0 +1,14 @@
+*{
+  font-family: 'THICCCBOI Semi', sans-serif;
+}
+
+html,body{
+  background-color: rgb(179, 238, 253);
+}
+
+.price-cart-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}

@@ -1,0 +1,380 @@
+* {
+    font-family: 'Outfit';
+}
+
+:root {
+    --primary-color: #D1B06B;
+    --secondary-color: #fff;
+    --letar-color: #989898;
+    --bg-colo: #000;
+    --transition-2: all 0.2s linear;
+    --second-bg-color: #0E0E0E;
+}
+
+.parim-color {
+    color: var(--primary-color) !important;
+}
+
+.second-bg-color {
+    background-color: var(--second-bg-color) !important;
+}
+
+.parim-color-bg {
+    background-color: var(--primary-color) !important;
+}
+
+.letar-color {
+    color: var(--letar-color) !important;
+}
+
+.bg-color {
+    background-color: var(--bg-colo) !important;
+}
+
+.li-lin {
+    font-size: 20px;
+    font-weight: 500;
+    transition: all 0.3s linear;
+    display: inline-block;
+    position: relative;
+}
+
+.li-lin:hover {
+    color: var(--primary-color) !important;
+}
+
+.btn-border {
+    border: 1px solid var(--primary-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-border:hover {
+    color: var(--secondary-color);
+    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color);
+}
+
+.animated-underline {
+    text-decoration: none !important;
+    font-size: 1.2em;
+    font-weight: 600;
+    padding-bottom: 5px;
+    position: relative;
+    display: inline-block;
+}
+
+.animated-underline::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background-color: var(--primary-color);
+    transition: var(--transition-2);
+}
+
+.animated-underline:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+.animated-underline i {
+    margin-left: 5px;
+    transition: var(--transition-2);
+}
+
+.animated-underline:hover i {
+    transform: translateX(3px);
+}
+
+.hero-img {
+    background-image: url(../img/Group\ 20.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.play-img {
+    background-image: url(../img/Rectangle\ 495.png);
+    padding: 250px 0;
+    background-size: cover;
+}
+
+.play-btn {
+    box-shadow: rgba(251, 251, 252, 0.164) 0px 0px 0px 3px, rgba(246, 247, 246, 0.164) 0px 0px 0px 6px, rgba(245, 245, 244, 0.164) 0px 0px 0px 9px, rgba(250, 249, 248, 0.164) 0px 0px 0px 12px, rgba(250, 250, 250, 0.164) 0px 0px 0px 15px;
+}
+
+.testimonial-box {
+    border-radius: 15px;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+    height: 100%;
+}
+
+.testimonial-box:hover {
+    transform: translateY(-5px);
+}
+
+.testimonial-box img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+    border: 3px solid #ff6f61;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.testimonial-box h5 {
+    margin: 0;
+    font-weight: 600;
+}
+
+.location {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.stars {
+    color: #ffc107;
+    font-size: 1.2rem;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    position: static;
+    display: inline-block;
+    margin: 0 10px;
+    color: #000;
+    font-weight: bold;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 20px;
+}
+
+.booking-form-wrapper {
+    margin: 0 auto;
+    background: rgba(20, 20, 20, 0.95);
+    border-radius: 12px;
+    padding: 40px 32px 32px 32px;
+    box-shadow: 0 4px 32px rgba(0, 0, 0, 0.25);
+    border: 1px solid var(--primary-color);
+}
+
+.booking-title {
+    text-align: left;
+}
+
+.booking-subtitle {
+    color: var(--primary-color);
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.booking-title h2 {
+    color: #fff;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.booking-title .parim-color {
+    color: var(--primary-color);
+}
+
+.booking-form .form-label.booking-label {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.booking-input {
+    background: transparent;
+    border: 1px solid var(--primary-color);
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px 14px;
+    font-size: 1rem;
+    transition: border 0.2s;
+}
+
+.booking-input:focus {
+    border-color: #fff;
+    outline: none;
+    background: #111;
+    color: #fff;
+}
+
+.booking-btn {
+    background-color: var(--primary-color) !important;
+    color: #000;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 0;
+}
+
+.booking-btn i {
+    margin-left: 8px;
+    font-size: 1.2rem;
+}
+
+.site-footer {
+    background: #191919;
+    color: #fff;
+    padding-top: 48px;
+    padding-bottom: 12px;
+    border-top: 1px solid #222;
+}
+
+.footer-logo .footer-the {
+    color: var(--primary-color);
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.footer-logo .footer-brand {
+    color: #fff;
+    font-weight: 700;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+.footer-desc {
+    color: var(--letar-color);
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+}
+
+.footer-nav {
+    padding-left: 0;
+    margin-bottom: 12px;
+}
+
+.footer-nav .footer-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 14px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.footer-nav .footer-link:hover {
+    color: var(--primary-color);
+}
+
+.footer-social {
+    margin-bottom: 10px;
+}
+
+.footer-social-link {
+    display: inline-block;
+    color: #fff;
+    font-size: 1.25rem;
+    margin: 0 8px;
+    transition: color 0.2s;
+    text-decoration: none;
+}
+
+.footer-social-link:hover {
+    color: var(--primary-color);
+}
+
+.footer-copyright {
+    color: var(--letar-color);
+    font-size: 0.92rem;
+    margin-top: 8px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn-effect-20 {
+    background-color: var(--primary-color);
+    color: white;
+    overflow: hidden;
+    position: relative;
+}
+
+.btn-effect-20::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, var(--primary-color) 0%, #fff 70%);
+    opacity: 0;
+    scale: 1.2
+}
+
+.btn-effect-20:hover::before {
+    animation: shineRotate 3s linear infinite;
+    opacity: 0.3;
+}
+
+@keyframes shineRotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.btn-effect-13 {
+    background: #444;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-effect-13::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -75%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.5), transparent);
+    transform: skewX(-20deg);
+    transition: all 0.5s;
+}
+
+.btn-effect-13:hover::after {
+    left: 130%;
+}
